@@ -9,9 +9,13 @@ Jednoduchá česká webová aplikace pro záznam cvičení. Otevři `index.html`
 - evidence cviků s kategorií, popisem a obrázky
 - statistiky tréninku a základní nastavení
 
-## Přenos na jiný počítač
+## Uložená data
 
-Soubory aplikace a obrázky lze synchronizovat přes samostatný GitHub repozitář. Záznamy o trénincích se zatím ukládají pouze do místního úložiště tohoto prohlížeče. Samotný GitHub proto přenese aplikaci, ale ne historii cvičení.
+Tréninkové záznamy a vlastní knihovna cviků se ukládají lokálně v prohlížeči. GitHub obsahuje zdrojové soubory aplikace a obrázky cviků.
 
-Před pokračováním na jiném počítači bude potřeba historii doplnit exportem a importem, případně později přihlášením a online databází. Zálohu pro GitHub nevkládej do veřejného repozitáře.
+## Verze aplikace
+
+Ozubené kolečko v záhlaví otevírá informace o aplikaci. Pokud je v `version.json` novější číslo než v `version.js`, u kolečka se zobrazí červená tečka a v okně bude dostupná aktualizace.
+
+Při vydání nové verze zvyš číslo `APP_VERSION` ve `version.js` a číslo `version` v `version.json` na stejnou hodnotu. V `index.html` změň také parametr `version.js?v=...`, aby prohlížeč načetl nový skript.
 
