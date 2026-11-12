@@ -1,0 +1,20 @@
+{
+  "name": "Tréninkový deník",
+  "short_name": "Trénink",
+  "description": "Kalendář a evidence silového tréninku.",
+  "lang": "cs-CZ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eeeadd",
+  "theme_color": "#292c1c",
+  "icons": [
+    {
+      "src": "icon.svg?v=2",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
