@@ -8,10 +8,16 @@ Jednoduchá česká webová aplikace pro záznam cvičení. Otevři `index.html`
 - zadávání cviku, sérií, opakování a postupně měněné váhy
 - evidence cviků s kategorií, popisem a obrázky
 - statistiky tréninku a základní nastavení
+- instalace aplikace a používání offline
+- export a obnovení místní zálohy
 
 ## Uložená data
 
-Tréninkové záznamy a vlastní knihovna cviků se ukládají lokálně v prohlížeči. GitHub obsahuje zdrojové soubory aplikace a obrázky cviků.
+Tréninkové záznamy a vlastní knihovna cviků se ukládají lokálně v prohlížeči. V okně pod ozubeným kolečkem lze data exportovat do JSON souboru a později je obnovit. GitHub obsahuje zdrojové soubory aplikace a obrázky cviků.
+
+## Instalace
+
+V podporovaném prohlížeči klepni na ikonu stažení v záhlaví a potvrď instalaci. Aplikaci pak můžeš spouštět samostatně a používat offline.
 
 ## Verze aplikace
 
