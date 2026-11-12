@@ -1,0 +1,6 @@
+# Lokální data a zálohy neukládat do repozitáře
+*.json
+*.backup
+.DS_Store
+Thumbs.db
+
