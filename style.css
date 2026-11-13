@@ -7,3 +7,16 @@
 .inline-style-2{margin-bottom:8px}
 .inline-style-3{margin-top:10px}
 .inline-style-4{margin-bottom:7px}
+
+.exercise-dialog{width:min(620px,calc(100% - 24px))}
+.exercise-dialog .app-info-head{margin-bottom:10px}
+.form-date{display:inline-flex;align-items:center;margin:0 0 13px;padding:7px 10px;border:1px solid var(--l);border-radius:7px;background:#f1eddf;color:var(--ink);font-size:12px;font-weight:800}
+.exercise-dialog .modal-copy{margin-bottom:17px}
+.exercise-form{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:end}
+.exercise-form>.field:first-child,.exercise-form>.ladderfield,.exercise-form>#exerciseHelp,.exercise-form>.btn{grid-column:1/-1}
+.exercise-form .ladder{display:grid;grid-template-columns:repeat(auto-fit,minmax(74px,1fr));gap:8px}
+.exercise-form .ladder input{width:100%;padding:10px 8px;text-align:center}
+.exercise-form>.btn{padding:12px;font-size:13px}
+.add-exercise-panel .panelhead{margin:0}
+.add-exercise-panel .micro{margin:4px 0 0}
+@media(max-width:420px){.exercise-dialog{padding:17px}.exercise-form{gap:10px}.exercise-form .ladder{grid-template-columns:repeat(3,minmax(0,1fr))}}
