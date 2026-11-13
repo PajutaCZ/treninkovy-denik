@@ -43,3 +43,27 @@
 .calendar-actions .datehead label{color:var(--m);font-size:12px;font-weight:800}
 .calendar-actions .datehead input{padding:8px 9px}
 @media(max-width:520px){.calendar-actions{gap:7px}.calendar-actions .datehead{gap:5px}.calendar-actions .btn{padding:9px 10px}}
+
+
+.day .day-total{display:block;margin-top:3px;font-weight:800;color:#9ba274}
+.calendar-top{display:block;margin-bottom:10px}
+.calendar-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.calendar-heading>div:first-child{min-width:0}
+.calendar-heading h2{margin:0 0 2px}
+.calendar-heading p{margin:0}
+.calendar-actions{margin-top:0;flex:none}
+.row{display:grid;grid-template-columns:58px minmax(0,1fr) 30px;grid-template-rows:auto auto;gap:7px;align-items:center;padding:8px}
+.row .thumb{grid-column:1;grid-row:1/3;width:54px;height:54px}
+.row-main{grid-column:2;grid-row:1;display:flex;align-items:center;justify-content:space-between;gap:10px;min-width:0}
+.row .name{font-size:13px;min-width:0}
+.row-metrics{display:flex;gap:14px;flex:none}
+.row-footer{grid-column:2/4;grid-row:2;display:flex;align-items:center;gap:8px;min-width:0}
+.row-footer .weights{display:flex;flex:1;min-width:0;gap:4px;flex-wrap:wrap}
+.row-footer .date{flex:none;margin-left:auto;white-space:nowrap;text-align:right}
+.row .edit-log{grid-column:3;grid-row:1;justify-self:end;width:28px;height:28px;border:1px solid var(--l);border-radius:6px;background:#fffdf5;color:var(--g);font-size:17px;font-weight:700;line-height:1;cursor:pointer}
+.row .edit-log:hover{background:#e4e7d2;border-color:#bdc6ad}
+.exercise-dialog-actions{grid-column:1/-1;display:flex;gap:9px}
+.exercise-dialog-actions .btn{flex:1}
+.exercise-dialog-actions .delete-log-button{border-color:#e7c8bd;background:#fff8f5;color:#995e48}
+.exercise-dialog-actions .delete-log-button:hover{background:#f7e9e3}
+@media(max-width:650px){.calendar-heading{align-items:flex-start;flex-direction:column;gap:8px}.row{grid-template-columns:44px minmax(0,1fr) 28px;gap:6px;padding:6px}.row .thumb{width:40px;height:42px}.row-main{gap:5px}.row .name{font-size:11px}.row-metrics{gap:6px}.row .cell label{font-size:7px}.row .cell b{font-size:11px}.row-footer{grid-column:2/4;gap:5px}.row-footer .weights{gap:3px}.row .edit-log{width:25px;height:25px}.exercise-dialog-actions{display:grid;grid-template-columns:1fr}}
