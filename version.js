@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const APP_VERSION = 3;
+  const APP_VERSION = 4;
   const $ = id => document.getElementById(id);
   const gear = $('appInfoButton');
   const dialog = $('appInfoDialog');
