@@ -1,6 +1,10 @@
 # Tréninkový deník
 
-Jednoduchá česká webová aplikace pro záznam cvičení. Otevři `index.html` v prohlížeči.
+Jednoduchá česká webová aplikace pro záznam cvičení.
+
+## Aplikace
+
+Otevři [Tréninkový deník](https://pajutacz.github.io/treninkovy-denik/) v prohlížeči. Aplikaci lze nainstalovat a používat offline.
 
 ## Co aplikace umí
 
@@ -25,3 +29,6 @@ Ozubené kolečko v záhlaví otevírá informace o aplikaci. Pokud je v `versio
 
 Při vydání nové verze zvyš číslo `APP_VERSION` ve `version.js` a číslo `version` v `version.json` na stejnou hodnotu. V `index.html` změň také parametr `version.js?v=...`, aby prohlížeč načetl nový skript.
 
+## Nasazení
+
+Aplikace je publikovaná na [GitHub Pages](https://pajutacz.github.io/treninkovy-denik/).
