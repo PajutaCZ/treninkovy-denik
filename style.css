@@ -20,3 +20,18 @@
 .add-exercise-panel .panelhead{margin:0}
 .add-exercise-panel .micro{margin:4px 0 0}
 @media(max-width:420px){.exercise-dialog{padding:17px}.exercise-form{gap:10px}.exercise-form .ladder{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+
+.category-filter{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 13px}
+.category-filter-button{display:inline-flex;align-items:center;gap:7px;padding:8px 11px;border:1px solid var(--l);border-radius:20px;background:#fffefa;color:var(--ink);font:700 11px system-ui,"Segoe UI",sans-serif;cursor:pointer}
+.category-filter-button:hover{border-color:#aeb79a;background:#f7f6ee}
+.category-filter-button.active{border-color:var(--o);background:var(--o);color:#fff}
+.category-filter-button span{min-width:18px;padding:2px 5px;border-radius:10px;background:#eeeadd;color:var(--m);font-size:9px;text-align:center}
+.category-filter-button.active span{background:#e1e7bd;color:var(--o)}
+.library-empty{grid-column:1/-1}
+.library-dialog{width:min(620px,calc(100% - 24px))}
+.library-dialog .library-form{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.library-dialog .library-form .wide{grid-column:1/-1}
+.library-form-actions{display:flex;justify-content:flex-end;gap:8px}
+.library-form-actions .btn{min-width:130px}
+@media(max-width:520px){.category-filter{flex-wrap:nowrap;overflow-x:auto;padding:2px 1px 8px;scrollbar-width:thin}.category-filter-button{flex:none}.library-dialog .library-form{grid-template-columns:1fr}.library-dialog .library-form .wide{grid-column:auto}.library-form-actions{display:grid;grid-template-columns:1fr}.library-form-actions .btn{width:100%}}
