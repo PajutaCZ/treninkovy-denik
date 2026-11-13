@@ -1,9 +1,9 @@
-const CACHE = 'treninkovy-denik-v5';
+const CACHE = 'treninkovy-denik-v6';
 const FILES = [
   './',
   './index.html',
-  './style.css?v=5',
-  './version.js?v=5',
+  './style.css?v=6',
+  './version.js?v=6',
   './manifest.json',
   './icon.svg?v=2',
   './version.json',
